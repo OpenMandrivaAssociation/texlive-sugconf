@@ -52,6 +52,7 @@ SAS Institute (2006).
 %doc %{_texmfdistdir}/doc/latex/sugconf/sugconf-example.bat
 %doc %{_texmfdistdir}/doc/latex/sugconf/sugconf-example.pdf
 %doc %{_texmfdistdir}/doc/latex/sugconf/sugconf-example.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -62,3 +63,5 @@ SAS Institute (2006).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
