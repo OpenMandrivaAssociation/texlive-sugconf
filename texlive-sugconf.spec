@@ -1,6 +1,6 @@
 Name:		texlive-sugconf
 Version:	58752
-Release:	1
+Release:	2
 Summary:	SAS(R) user group conference proceedings document class
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/conferences/sugconf
