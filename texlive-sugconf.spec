@@ -3,7 +3,7 @@ Version:	58752
 Release:	2
 Summary:	SAS(R) user group conference proceedings document class
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/conferences/sugconf
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/conferences/sugconf
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/sugconf.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/sugconf.doc.r%{version}.tar.xz
